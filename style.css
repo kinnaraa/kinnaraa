@@ -1,0 +1,183 @@
+nav{
+    background: #0f4215;
+    color: white;
+    padding: 20px 0;
+    font-family: monospace;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    text-align: right;
+}
+
+#navLinks {
+    padding-right: 100px;
+    text-align: right;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    padding: 0px;
+    font-family: monospace;
+}
+
+a.menu{
+    padding: 20px;
+}
+
+a.menu:hover{
+    color: white;
+    background: #042107;
+}
+
+body{
+    background-color: #cee8ba;
+    font-family: monospace;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    max-width: 80%;
+    margin-top: 100px;
+    margin-left: 110px;
+    margin-right: 40px;
+}
+
+#profileImage {
+    width: 30%;
+    margin-right: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+#aboutMe {
+    width: 80%;
+}
+
+#profileImage img {
+    max-width: 100%;
+    height: auto;
+}
+
+#gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.galHeader {
+    color: black;
+    grid-column: 1 / -1;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.galImage {
+    text-align: center;
+}
+
+.galImage img {
+    max-width: 100%;
+    height: auto;
+}
+
+.portfolioHeader {
+    color: black;
+    grid-column: 1 / -1;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#portImage {
+    width: 40%;
+    margin-right: 30px;
+}
+
+#portImage img {
+    max-width: 100%;
+    height: auto;
+}
+
+#portImageL{
+    width: 40%;
+    margin-left: 30px;
+}
+
+#portImageL img {
+    max-width: 100%;
+    height: auto;
+}
+
+#portInfo{
+    width = 60%;
+}
+
+h2{
+    text-align: center;
+    font-weight: normal;
+}
+
+p.portText{
+    text-align: center;
+}
+
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 80%;
+    margin-top: 30px;
+    margin-left: 110px;
+    margin-right: 40px;
+}
+
+.divider {
+    border: 0;
+    height: 1px;
+    background-color: #000;
+    margin: 20px 0;
+}
+
+a.links {
+    color: black;
+    text-decoration: underline;
+}
+
+h2.connect{
+    text-align: left;
+    font-weight: bold;
+}
+
+img.dividerImage{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    object-position: top - 100px;
+}
+
+img.dividerImage2{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+p.centered{
+    text-align: center;
+}
+
+#logoArea{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.logos img {
+    width: 40px;
+    margin: 10px;
+}
